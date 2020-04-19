@@ -22,7 +22,7 @@ void loop() {
   duration = pulseIn(echoPin, HIGH);
   distance = (duration/2) / 29.1;
   if (distance >= 22 || distance <= 0){ // you can make adjustments here depending on reading of your ultrasonic sensor
-    Serial.println("Out of range");
+    Serial.println("waiting");
     Serial.println();
     dist1=1;
     myservo1.write(0,255,false);
