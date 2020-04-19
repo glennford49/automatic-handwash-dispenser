@@ -1,8 +1,8 @@
 # automatic-handwash-dispenser
 arduino handwash dispenser
 materials:
- arduino
- servo
+ arduino ,
+ servo ,
  ultrasonic sensor
  
  
